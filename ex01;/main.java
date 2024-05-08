@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class main {
     
     public static void main(String[] args) {
         System.out.println("----------------------------------");
@@ -23,19 +23,19 @@ public class Main {
 
         
         if(opcao == 1){
-            float soma = Calculadora.soma(a,b);
+            float soma = calculadora.soma(a,b);
             System.out.println("O valor da soma é " + soma);
         }
         else if(opcao == 2){
-            float subtrair = Calculadora.subtrair(a,b);
+            float subtrair = calculadora.subtrair(a,b);
             System.out.println("O valor da subtraçao é " + subtrair);
         }
         else if (opcao == 3){
-            float multiplicar = Calculadora.multiplicar(a,b);
+            float multiplicar = calculadora.multiplicar(a,b);
             System.out.println("O valor da multiplicacao é " + multiplicar);
         }
         else if (opcao == 4){
-            float dividir = Calculadora.dividir(a,b);
+            float dividir = calculadora.dividir(a,b);
             System.out.println("O valor da divisao é " + dividir);
         }
     }
