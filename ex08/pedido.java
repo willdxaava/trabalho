@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pedido {
+public class pedido {
     private List<Pizza> pizzas;
     private String enderecoEntrega;
     private double valorTotal;
 
-    public Pedido() {
+    public pedido() {
         this.pizzas = new ArrayList<>();
         this.enderecoEntrega = "";
         this.valorTotal = 0.0;
