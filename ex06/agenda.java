@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-class Agenda {
+class agenda {
 
     private List<Contato> contatos;
 
-    public Agenda() {
+    public agenda() {
         this.contatos = new ArrayList<>();
     }
 
