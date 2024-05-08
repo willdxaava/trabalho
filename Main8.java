@@ -8,7 +8,7 @@ public class Main8 {
 
         List<Pizza> pizzasDisponiveis = criarPizzas();
 
-        Pedido pedido = new Pedido();
+        pedido pedido = new pedido();
 
         System.out.println("Ola seja bem vindo a pizzaria Java!");
         System.out.println("Nosso Menu de Pizzas:");
