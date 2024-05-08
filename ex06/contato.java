@@ -1,9 +1,9 @@
-class Contato {
+class contato {
 
     private String nome;
     private String telefone;
 
-    public Contato(String nome, String telefone) {
+    public contato(String nome, String telefone) {
         this.nome = nome;
         this.telefone = telefone;
     }
