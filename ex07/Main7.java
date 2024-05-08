@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<Produto> estoque = new ArrayList<>();
+        List<produto> estoque = new ArrayList<>();
 
         boolean executando = true;
         while (executando) {
@@ -35,7 +35,7 @@ public class Main7 {
         scanner.close();
     }
 
-    private static void adicionarProduto(List<Produto> estoque, Scanner scanner) {
+    private static void adicionarProduto(List<produto> estoque, Scanner scanner) {
         System.out.println("\n### Adicionar Produto ###");
         System.out.print("Nome do produto: ");
         String nome = scanner.nextLine();
@@ -46,18 +46,18 @@ public class Main7 {
         System.out.print("Quantidade em estoque: ");
         int quantidade = scanner.nextInt();
 
-        Produto produto = new Produto(nome, codigo, preco, quantidade);
+        produto produto = new produto(nome, codigo, preco, quantidade);
         estoque.add(produto);
 
         System.out.println("Produto adicionado com sucesso.");
     }
 
-    private static void visualizarRelatorioEstoque(List<Produto> estoque) {
+    private static void visualizarRelatorioEstoque(List<produto> estoque) {
         System.out.println("\n### Relatório de Estoque ###");
         if (estoque.isEmpty()) {
             System.out.println("Nenhum produto cadastrado no estoque.");
         } else {
-            for (Produto produto : estoque) {
+            for (produto produto : estoque) {
                 produto.exibirProduto();
             }
         }
