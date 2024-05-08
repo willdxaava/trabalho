@@ -1,10 +1,10 @@
-public class Livro {
+public class biblioteca {
   
     String title;
     String nm;
     int year;
 
-    Livro(String titulo, String nome, int ano){
+    biblioteca(String titulo, String nome, int ano){
         title = titulo;
         nm = nome;
         year = ano;
