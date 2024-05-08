@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Agenda agenda = new Agenda();
+        agenda agenda = new agenda();
 
         int opcao;
         do {
@@ -22,13 +22,13 @@ public class Main6 {
                     String nomeContato = scanner.nextLine();
                     System.out.print("Digite o telefone do contato: ");
                     String telefoneContato = scanner.nextLine();
-                    Contato novoContato = new Contato(nomeContato, telefoneContato);
+                    contato novoContato = new contato(nomeContato, telefoneContato);
                     agenda.adicionarContato(novoContato);
                     break;
                 case 2:
                     System.out.print("Digite o nome do contato a ser buscado: ");
                     String nomeBuscar = scanner.nextLine();
-                    Contato contatoEncontrado = agenda.buscarContato(nomeBuscar);
+                    contato contatoEncontrado = agenda.buscarContato(nomeBuscar);
                     if (contatoEncontrado != null) {
                         System.out.println("Contato encontrado: " + contatoEncontrado.getNome() + ", Telefone: " + contatoEncontrado.getTelefone());
                     } else {
