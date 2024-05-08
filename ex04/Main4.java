@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Jogador jogador1 = new Jogador("Player1", 1000, 5);
+        jogador jogador1 = new jogador("Player1", 1000, 5);
 
         int opcao;
         do {
