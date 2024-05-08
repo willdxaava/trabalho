@@ -13,7 +13,7 @@ public class Main3 {
         System.out.print("Digite o nome do titular da conta: ");
         String nomeTitular = scanner.nextLine();
 
-        ContaBancaria minhaConta = new ContaBancaria(numeroConta, nomeTitular);
+        contabancaria minhaConta = new contabancaria(numeroConta, nomeTitular);
 
         boolean continuar = true;
 
