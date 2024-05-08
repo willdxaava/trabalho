@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main2 {
     public static void main(String[] args) {
         Scanner Leitor = new Scanner(System.in);
-        List<Livro> biblioteca = new ArrayList<>();
+        List<biblioteca> biblioteca = new ArrayList<>();
 
         System.out.println("Informe a quantidade de livros que você deseja registrar: ");
         int quantl = Leitor.nextInt();
@@ -22,7 +22,7 @@ public class Main2 {
             int ano = Leitor.nextInt();
             Leitor.nextLine();
 
-            Livro livro = new Livro(titulo, nome, ano);
+            biblioteca livro = new biblioteca(titulo, nome, ano);
 
             livro.exibirInfo();
             biblioteca.add(livro);    
