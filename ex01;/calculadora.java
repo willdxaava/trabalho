@@ -1,5 +1,5 @@
 
-public class Calculadora {
+public class calculadora {
     
     static float soma(float a, float b){
     float soma = a+b;
