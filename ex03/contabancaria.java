@@ -1,10 +1,10 @@
-public class ContaBancaria {
+public class contabancaria{
     int numeroConta;
     String nomeTitular;
     float saldo;
 
 
-    public ContaBancaria(int numeroConta, String nomeTitular) {
+    public contabancaria(int numeroConta, String nomeTitular) {
         this.numeroConta = numeroConta;
         this.nomeTitular = nomeTitular;
         this.saldo = 0; 
