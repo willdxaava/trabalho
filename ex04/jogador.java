@@ -1,11 +1,11 @@
-public class Jogador {
+public class jogador {
 
     private String nome;
     private int pontuacao;
     private int nivel;
 
 
-    public Jogador(String nome, int pontuacaoInicial, int nivelInicial) {
+    public jogador(String nome, int pontuacaoInicial, int nivelInicial) {
         this.nome = nome;
         this.pontuacao = pontuacaoInicial;
         this.nivel = nivelInicial;
